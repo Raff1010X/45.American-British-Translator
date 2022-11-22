@@ -86,5 +86,3 @@ module.exports = function translate(text, locale, highlight) {
     if (checkStrings(translated, text)) return 'Everything looks good to me!';
     return translated;
 };
-```javascript
-
