@@ -70,9 +70,8 @@ module.exports = function translate(text, locale, highlight) {
     }
     title = toUpper(title);
     let translated = text;
-    translated = rewriteFromObj(text, translated, spell, highlight);
-    translated = rewriteFromObj(text, translated, trans, highlight);
-    translated = rewriteFromObj(text, translated, title, highlight);
+    const dictionary = {...spell, ...trans, ...title}
+    translated = rewriteFromObj(text, translated, dictionary, highlight)
     translated = formatTime(translated, time, highlight);
     if (checkStrings(translated, text)) return 'Everything looks good to me!';
     return translated;
