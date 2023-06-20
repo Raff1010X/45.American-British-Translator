@@ -2,7 +2,7 @@
 
 ## [American British Translator](https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/american-british-translator)
 
-Working example: https://app-ameri-briti-transl.herokuapp.com/
+Working example: https://app-ameri-briti-transl.webdev.priv.pl/
 
 My git repo: https://github.com/Raff1010X/01.Roadmap
 
